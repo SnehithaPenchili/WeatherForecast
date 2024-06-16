@@ -1,0 +1,74 @@
+/* App.css */
+
+.wetherBg {
+  background: url("https://t3.ftcdn.net/jpg/02/11/52/42/360_F_211524227_Ett8aboQvVnROAFtqu3S1pW99Y3Th9vm.jpg");
+  height: auto; 
+  min-height: 50vh; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem; 
+}
+
+.heading {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem; 
+}
+
+.form-control {
+  width: 100%;
+  max-width: 500px; 
+}
+
+.btn-primary {
+  width: 100%;
+  max-width: 500px;
+}
+
+.weatherResultBox {
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.weatherDate {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0.5rem; 
+}
+
+.weatherIcon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto; 
+  display: block;
+}
+
+.weatherDescription {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.weatherTemperature {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .weatherResultBox {
+    margin-bottom: 2rem; 
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+}
